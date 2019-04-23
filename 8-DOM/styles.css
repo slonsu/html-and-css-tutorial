@@ -1,22 +1,6 @@
-nav a {
-    display: block;
-    background: red;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-color: green;
-    border-width: 3px;
-    border-style: solid;
-}
-
-nav a:last-child {
-    margin-bottom: 0;
-}
-
-div {
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    border: 5px solid green;
-    margin: 20px;
-    box-sizing: inherit;
+.example {
+    display: inline-block;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
 }
