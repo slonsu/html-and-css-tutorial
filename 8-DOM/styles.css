@@ -3,6 +3,9 @@ nav a {
     background: red;
     padding: 10px;
     margin-bottom: 10px;
+    border-color: green;
+    border-width: 3px;
+    border-style: solid;
 }
 
 nav a:last-child {
