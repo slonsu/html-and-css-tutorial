@@ -11,3 +11,12 @@ nav a {
 nav a:last-child {
     margin-bottom: 0;
 }
+
+div {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid green;
+    margin: 20px;
+    box-sizing: inherit;
+}
