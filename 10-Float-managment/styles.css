@@ -17,20 +17,16 @@ header, footer {
     width: 600px;
 }
 
-.col-1 {
+.cell {
+    width: 180px;
     float: left;
+    margin-right: 30px;
 }
 
-.col-2 {
-    float: right;
-}
-
-.col-1, .col-2 {
-    width: 285px;
-}
-
-.col-3 {
-    width: 400px;
+footer {
     clear: both;
-    margin-left: 100px;
+}
+
+.cell:last-of-type{
+    margin-right: 0px;
 }
