@@ -1,20 +1,27 @@
-section {
+.box {
+    float: left;
     position: relative;
-    margin: auto;
-    width: 600px;
-    height: 600px;
-    background: blue;
+    border-radius: 6px;
+    width: 75px;
+    height: 75px;
+    background: lightgray;
+    margin: 50px;
 }
 
-section div {
+div {
+    color: white;
+    text-align: center;
     position: absolute;
-    width: 100px;
-    height: 50px;
-    background: white;
+    right: -15%;
+    top: -15%;
+    background: red;
+    border-radius: 50%;
+    border: 2px white solid;
+    width: 25px;
+    height: 25px;
 }
 
-.a {
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+.notification {
+    width: 50px;
+    border-radius: 45%;
 }
