@@ -1,32 +1,32 @@
-div, header, footer {
-    font-size: 40px;
-    font-family: sans-serif;
-    color: white;
-    background: blue;
-    height: 150px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
 main {
     width: 600px;
+    margin: 0 auto;
 }
 
-
-header, footer {
-    width: 600px;
+.row {
+    width: 100%;
 }
 
 .cell {
-    width: 180px;
+    min-height: 150px;
+    margin-bottom: 30px;
+    background: blue;
     float: left;
     margin-right: 30px;
 }
 
-footer {
-    clear: both;
+.col-1 {
+    width: 180px;
 }
 
-.cell:last-of-type{
+.col-2 {
+    width: 390px;
+}
+
+.col-3 {
+    width: 600px;
+}
+
+.cell:last-of-type {
     margin-right: 0px;
 }
