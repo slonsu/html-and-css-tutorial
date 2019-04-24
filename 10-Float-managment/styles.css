@@ -1,0 +1,36 @@
+div, header, footer {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+    background: blue;
+    height: 150px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+main {
+    width: 600px;
+}
+
+
+header, footer {
+    width: 600px;
+}
+
+.col-1 {
+    float: left;
+}
+
+.col-2 {
+    float: right;
+}
+
+.col-1, .col-2 {
+    width: 285px;
+}
+
+.col-3 {
+    width: 400px;
+    clear: both;
+    margin-left: 100px;
+}
