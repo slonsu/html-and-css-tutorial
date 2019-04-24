@@ -1,25 +1,25 @@
 section {
     position: relative;
-    width: 350px;
-    height: 120px;
-    border: 1px solid;
-    padding: 15px;
+    margin: auto;
+    width: 500px;
+    height: 150px;
 }
 
-p {
-    color: gray;
+div {
+    height: 50%;
 }
 
-.title {
-    color: black;
-    font-size: 110%;
-    font-weight: 600;
+.underline {
+    border-bottom: 1px lightgray solid;
 }
 
-.xbutton {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    color: gainsboro;
+.withtext {
+    text-align: center;
+    width: 100px;
+    top: -20%;
+    position: relative;
+    left: 40%;
+    transform: translate(50% 50%);
+    background-color: white;
 }
 
