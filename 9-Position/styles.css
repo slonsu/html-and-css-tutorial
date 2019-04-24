@@ -14,21 +14,7 @@ section div {
 }
 
 .a {
-    top: 20px;
-    left: 20px;
-}
-
-.b {
-    top: 20px;
-    right: 20px;
-}
-
-.c {
-    bottom: 20px;
-    right: 20px;
-}
-
-.d {
-    bottom: 20px;
-    left: 20px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
