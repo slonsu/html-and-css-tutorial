@@ -1,27 +1,25 @@
-.box {
-    float: left;
+section {
     position: relative;
-    border-radius: 6px;
-    width: 75px;
-    height: 75px;
-    background: lightgray;
-    margin: 50px;
+    width: 350px;
+    height: 120px;
+    border: 1px solid;
+    padding: 15px;
 }
 
-div {
-    color: white;
-    text-align: center;
+p {
+    color: gray;
+}
+
+.title {
+    color: black;
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.xbutton {
     position: absolute;
-    right: -15%;
-    top: -15%;
-    background: red;
-    border-radius: 50%;
-    border: 2px white solid;
-    width: 25px;
-    height: 25px;
+    top: 15px;
+    right: 15px;
+    color: gainsboro;
 }
 
-.notification {
-    width: 50px;
-    border-radius: 45%;
-}
