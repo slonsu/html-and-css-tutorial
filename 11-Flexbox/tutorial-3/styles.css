@@ -17,8 +17,16 @@ main {
     margin-bottom: 30px;
 }
 
-.row > div {
+.row div {
     margin-right: 30px;
+}
+
+.row .cell {
+    background: gray;
+    margin-right: 30px;
+}
+
+.solid {
     background: gray;
 }
 
@@ -37,3 +45,17 @@ main {
 .col-3 {
     flex-grow: 3;
 }
+
+.multi {
+    display: flex;
+    flex-direction: column;
+}
+
+.multi .row {
+    margin-right: 0;
+}
+
+.multi .row:last-child {
+    margin-bottom: 0;
+}
+
