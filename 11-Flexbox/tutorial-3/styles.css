@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.row > div {
+    margin-right: 30px;
+    background: gray;
+}
+
+.row > div:last-child {
+    margin-right: 0;
+}
+
+.col-1 {
+ flex-grow: 1;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.col-3 {
+    flex-grow: 3;
+}
