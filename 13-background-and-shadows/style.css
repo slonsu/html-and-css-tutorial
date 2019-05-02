@@ -24,13 +24,21 @@ section {
     position: relative;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+section > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-image: url(background-1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    filter: blur(16px);
 }
 
 section::before {
@@ -45,6 +53,7 @@ section::before {
     content: '';
     width: 100%;
     height: 100%;
+    z-index: 2;
 }
 
 section::after {
@@ -56,6 +65,7 @@ section::after {
     content: '';
     width: 100%;
     height: 100%;
+    z-index: 1;
 }
 
 section h1 {
@@ -63,6 +73,6 @@ section h1 {
     font-size: 196px;
     line-height: 250px;
     color: #FFF;
-    z-index: 1;
+    z-index: 3;
     position: relative;
 }
